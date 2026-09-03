@@ -1,0 +1,14 @@
+const fs=require("fs");
+const path=require("path");
+const root=__dirname;
+const data=JSON.parse(fs.readFileSync(path.join(root,"data","catalog.json"),"utf8"));
+const jsPath=path.join(root,"script.js");
+let js=fs.readFileSync(jsPath,"utf8");
+js=js.replace(/^const CATALOG_DATA = [\s\S]*?;\n/, "");
+const embedded="const CATALOG_DATA = "+JSON.stringify(data)+";\n";
+fs.writeFileSync(jsPath,embedded+js);
+const adminPath=path.join(root,"admin.html");
+let admin=fs.readFileSync(adminPath,"utf8");
+admin=admin.replace(/const CATALOG_DATA = [\s\S]*?;\nlet data/, "const CATALOG_DATA = "+JSON.stringify(data)+";\nlet data");
+fs.writeFileSync(adminPath,admin);
+console.log("Catalog embedded data rebuilt successfully.");

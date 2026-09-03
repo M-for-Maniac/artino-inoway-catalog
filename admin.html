@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#11161b">
+<title>Artino × InoWay — Catalog Manager V3</title>
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<header>
+  <div><b>ARTINO × INOWAY</b><span> / CATALOG MANAGER V3</span></div>
+  <div class="head-actions">
+    <a href="index.html">← Catalog</a>
+    <label class="import-btn">Import JSON<input id="importFile" type="file" accept=".json,application/json"></label>
+    <button id="download">Download JSON</button>
+  </div>
+</header>
+<main>
+  <div class="notice">
+    <b>Portable editing:</b> this manager works from phone storage, Windows, localhost, or GitHub Pages.
+    Changes live in this browser until you export <code>catalog.json</code>. The public catalog uses an embedded copy so it also works from <code>file://</code>.
+  </div>
+  <section>
+    <div class="section-head"><div><p class="eyebrow">01 / PRODUCTS</p><h1>Products & solutions</h1></div><button id="add" class="primary">+ Add item</button></div>
+    <div id="items"></div>
+  </section>
+  <section>
+    <div class="section-head"><div><p class="eyebrow">02 / PROJECTS</p><h2>Reference projects</h2></div><button id="addProject" class="primary">+ Add project</button></div>
+    <div id="projects"></div>
+  </section>
+  <section>
+    <p class="eyebrow">03 / PUBLISH</p>
+    <h2>Publishing workflow</h2>
+    <div class="publish-grid">
+      <div><b>1. Edit</b><span>Change products, solutions and projects here.</span></div>
+      <div><b>2. Export</b><span>Download the updated <code>catalog.json</code>.</span></div>
+      <div><b>3. Update data</b><span>Replace <code>data/catalog.json</code> in the master package.</span></div>
+      <div><b>4. Rebuild</b><span>Run the included build script to update the embedded public catalog.</span></div>
+    </div>
+  </section>
+</main>
+<script>
+const CATALOG_DATA = {"companies":[{"id":"artino","name":"Artino","role":"Signage, acrylic fabrication & integrated production","intro":"Design, fabrication and implementation of signage, display elements, acrylic products and custom fabricated components.","accent":"manufacturing"},{"id":"inoway","name":"InoWay","role":"Wayfinding, accessibility & navigation systems","intro":"Wayfinding systems designed for clarity, accessibility and seamless navigation in complex environments.","accent":"wayfinding"}],"categories":[{"id":"artino-signage","company":"artino","name":"Signage & Marking","description":"Illuminated and non-illuminated signage, identification and marking families."},{"id":"artino-acrylic","company":"artino","name":"Acrylic Fabrication","description":"Custom acrylic products, formed parts, covers, boxes and fabricated components."},{"id":"artino-display","company":"artino","name":"Displays & Retail","description":"Stands, holders, shelf headers, retail elements and promotional displays."},{"id":"artino-decor","company":"artino","name":"Interior & Décor","description":"Fabricated interior elements and custom decorative applications."},{"id":"artino-awards","company":"artino","name":"Awards & Trophies","description":"Custom awards, trophies and recognition objects."},{"id":"artino-industrial","company":"artino","name":"Industrial Components","description":"Precision-fabricated components and custom parts."},{"id":"inoway-airport","company":"inoway","name":"Airport Wayfinding","description":"Navigation and identification systems for international and local airports."},{"id":"inoway-healthcare","company":"inoway","name":"Healthcare Wayfinding","description":"Clear, accessible navigation for hospitals, patients, visitors and staff."},{"id":"inoway-campus","company":"inoway","name":"Campus & Transit","description":"Wayfinding for universities, subway stations and large public campuses."},{"id":"inoway-public","company":"inoway","name":"Public & Commercial","description":"Wayfinding for malls, parking, emergency routes and complex public environments."},{"id":"inoway-accessibility","company":"inoway","name":"Accessibility Systems","description":"Inclusive signage and navigation principles supporting diverse users."}],"items":[{"id":"A-SIGN-001","company":"artino","category":"artino-signage","name":"Signage Systems","type":"Product Family","status":"To verify","summary":"Signage and identification solutions for buildings, facilities and commercial environments.","specs":["Illuminated / non-illuminated","Custom sizes and materials","Design → fabrication → installation"],"images":["images/artino/signage-01.jpg"]},{"id":"A-ACR-001","company":"artino","category":"artino-acrylic","name":"Custom Acrylic Fabrication","type":"Capability Family","status":"To verify","summary":"Precision acrylic fabrication for functional, decorative and branded applications.","specs":["Laser / CNC cutting","Vacuum forming","Custom fabrication"],"images":["images/artino/acrylic-01.jpg"]},{"id":"A-DSP-001","company":"artino","category":"artino-display","name":"Retail Displays & Holders","type":"Product Family","status":"To verify","summary":"Stands, holders, shelf headers and other retail display elements.","specs":["POS / retail applications","Custom dimensions","Acrylic and mixed materials"],"images":["images/artino/display-01.jpg"]},{"id":"A-DEC-001","company":"artino","category":"artino-decor","name":"Interior Décor Elements","type":"Product Family","status":"To verify","summary":"Custom fabricated elements for interior environments and branded spaces.","specs":["Bespoke design","Fabrication support","Project-based delivery"],"images":["images/artino/decor-01.jpg"]},{"id":"A-AWD-001","company":"artino","category":"artino-awards","name":"Awards & Trophies","type":"Product Family","status":"To verify","summary":"Custom recognition objects and presentation pieces.","specs":["Custom forms","Engraving / finishing","Short and medium runs"],"images":["images/artino/awards-01.jpg"]},{"id":"A-IND-001","company":"artino","category":"artino-industrial","name":"Industrial Components","type":"Product Family","status":"To verify","summary":"Fabricated custom parts for industrial and technical applications.","specs":["Digital cutting","CNC / laser processes","Prototype to production"],"images":["images/artino/industrial-01.jpg"]},{"id":"I-AIR-001","company":"inoway","category":"inoway-airport","name":"Airport Wayfinding System","type":"Solution Family","status":"To verify","summary":"Integrated wayfinding for gates, terminals, facilities and passenger journeys.","specs":["Multilingual planning","Identification + direction","Accessibility-aware design"],"images":["images/inoway/airport-01.jpg"]},{"id":"I-HEA-001","company":"inoway","category":"inoway-healthcare","name":"Hospital Wayfinding System","type":"Solution Family","status":"To verify","summary":"Navigation designed around patients, visitors, staff and complex clinical environments.","specs":["Zone / department identification","Accessible communication","Consistent sign hierarchy"],"images":["images/inoway/hospital-01.jpg"]},{"id":"I-CAM-001","company":"inoway","category":"inoway-campus","name":"Campus & Transit Wayfinding","type":"Solution Family","status":"To verify","summary":"Navigation systems for universities, stations and large campuses.","specs":["Pedestrian navigation","Destination identification","System-wide consistency"],"images":["images/inoway/campus-01.jpg"]},{"id":"I-PUB-001","company":"inoway","category":"inoway-public","name":"Public & Commercial Wayfinding","type":"Solution Family","status":"To verify","summary":"Clear navigation for malls, parking and other high-traffic public environments.","specs":["Arrival → circulation → destination","Rules / information signage","High-volume environments"],"images":["images/inoway/public-01.jpg"]},{"id":"I-ACC-001","company":"inoway","category":"inoway-accessibility","name":"Accessible Signage & Navigation","type":"Solution Family","status":"To verify","summary":"Inclusive navigation principles for people with varied sensory, cognitive and mobility needs.","specs":["Universal design approach","Tactile / visual considerations","Clear information hierarchy"],"images":["images/inoway/accessibility-01.jpg"]}],"projects":[{"id":"P-001","company":"artino","name":"Airport City Wayfinding Project","client":"Imam Khomeini Airport City","status":"Verified reference","summary":"Manufacture and installation of wayfinding signs, updated using globally gathered standards.","images":["images/projects/project-01.jpg"],"tags":["airport","wayfinding","installation"]},{"id":"P-002","company":"artino","name":"Retail Display Program","client":"HyperMe","status":"Verified reference","summary":"Shelves, store signs, stands and shelf lighting.","images":["images/projects/project-02.jpg"],"tags":["retail","display","fabrication"]},{"id":"P-003","company":"artino","name":"Packaging & Display Elements","client":"Cookie Box","status":"Verified reference","summary":"Boxes, shelves and trays designed around lightweight, isolated and washable applications.","images":["images/projects/project-03.jpg"],"tags":["boxes","trays","retail"]}],"settings":{"title":"ARTINO × INOWAY","subtitle":"Master Product & Solutions Catalog","edition":"Master Build 02","language":"English","note":"Master catalog — verify item-level specifications, dates, standards and project details before external publication."}};
+let data = structuredClone(CATALOG_DATA);
+const $=s=>document.querySelector(s);
+const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function editor(x,i,project){
+  return '<div class="editor" data-i="'+i+'" data-project="'+project+'">'+
+  '<div class="item-title"><h3>'+esc(x.name||"New item")+'</h3><button class="danger delete">Delete</button></div>'+
+  '<div class="row"><div class="field"><label>ID</label><input data-k="id" value="'+esc(x.id)+'"></div><div class="field"><label>Name</label><input data-k="name" value="'+esc(x.name)+'"></div></div>'+
+  '<div class="row"><div class="field"><label>Company</label><select data-k="company"><option value="artino" '+(x.company==="artino"?"selected":"")+'>Artino</option><option value="inoway" '+(x.company==="inoway"?"selected":"")+'>InoWay</option></select></div><div class="field"><label>Status</label><input data-k="status" value="'+esc(x.status||"To verify")+'"></div></div>'+
+  (project?'<div class="field"><label>Client</label><input data-k="client" value="'+esc(x.client||"")+'"></div>':'<div class="row"><div class="field"><label>Category ID</label><input data-k="category" value="'+esc(x.category||"")+'"></div><div class="field"><label>Type</label><input data-k="type" value="'+esc(x.type||"Product Family")+'"></div></div>')+
+  '<div class="field"><label>Summary</label><textarea data-k="summary">'+esc(x.summary||"")+'</textarea></div>'+
+  '<div class="field"><label>Images — one relative path per line</label><textarea data-k="images">'+esc((x.images||[]).join("\n"))+'</textarea></div>'+
+  (project?'<div class="field"><label>Tags — one per line</label><textarea data-k="tags">'+esc((x.tags||[]).join("\n"))+'</textarea></div>':'<div class="field"><label>Specs — one per line</label><textarea data-k="specs">'+esc((x.specs||[]).join("\n"))+'</textarea></div>')+
+  '</div>';
+}
+function render(){
+  $("#items").innerHTML=data.items.map((x,i)=>editor(x,i,false)).join("");
+  $("#projects").innerHTML=data.projects.map((x,i)=>editor(x,i,true)).join("");
+}
+function sync(){
+  document.querySelectorAll(".editor").forEach(el=>{
+    const i=+el.dataset.i, p=el.dataset.project==="true", obj=p?data.projects[i]:data.items[i];
+    el.querySelectorAll("[data-k]").forEach(f=>{
+      const k=f.dataset.k;
+      obj[k]=["images","specs","tags"].includes(k)?f.value.split("\n").map(s=>s.trim()).filter(Boolean):f.value;
+    });
+  });
+}
+document.addEventListener("input",e=>{if(e.target.closest(".editor"))sync();});
+document.addEventListener("click",e=>{
+  const b=e.target.closest(".delete");
+  if(!b)return;
+  const el=b.closest(".editor"),i=+el.dataset.i,p=el.dataset.project==="true";
+  (p?data.projects:data.items).splice(i,1);render();
+});
+$("#add").onclick=()=>{sync();data.items.push({id:"NEW-"+Date.now(),company:"artino",category:"artino-signage",name:"New Product / Solution",type:"Product Family",status:"To verify",summary:"Add description.",specs:["Add specification"],images:["images/products/new-item.jpg"]});render();};
+$("#addProject").onclick=()=>{sync();data.projects.push({id:"NEW-P-"+Date.now(),company:"artino",name:"New Project",client:"Client / Project",status:"To verify",summary:"Add project description.",images:["images/projects/new-project.jpg"],tags:["tag"]});render();};
+$("#download").onclick=()=>{
+  sync();
+  const blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json"});
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="catalog.json";a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+};
+$("#importFile").addEventListener("change",e=>{
+  const file=e.target.files[0];if(!file)return;
+  const r=new FileReader();
+  r.onload=()=>{try{data=JSON.parse(r.result);render();}catch(err){alert("Invalid catalog JSON.");}};
+  r.readAsText(file);
+});
+render();
+</script>
+</body></html>
