@@ -1,58 +1,93 @@
-# ARTINO × INOWAY — Responsive Master Catalog V3
+# ARTINO × INOWAY V4.1 — Local Catalog Workflow
 
-V3 makes the main catalog **portable**. The public catalog no longer needs `fetch()` to load its catalog data, so `index.html` can be opened directly from phone storage (`file://`) and still render the catalog.
+This version keeps the public catalog static and GitHub Pages compatible while making the local catalog/image workflow explicit.
 
-## Works in
-- Windows / desktop browsers
-- Android / mobile browsers that allow local HTML files
-- Localhost
-- GitHub Pages
-- Other static hosting
+## The four pieces
 
-## Architecture
-`data/catalog.json` is the editable source of truth.
+- `index.html` — public catalog
+- `admin.html` — local catalog record manager
+- `data/catalog.json` — source catalog data
+- `tools/add_image.py` — local image intake, naming, optimization and catalog linking
 
-The public `index.html` / `script.js` contains an embedded copy of that data so the public catalog is self-contained.
+`script.js` contains an embedded copy of `catalog.json` so the public catalog also works when opened locally.
 
-After editing `data/catalog.json`, run:
+## Recommended workflow
 
-`node build-catalog.js`
+### A. Create or edit a catalog item
 
-This updates the embedded public data.
+1. Open `admin.html`.
+2. Add/edit the product, solution or project information.
+3. Click **Download JSON**.
+4. Replace the repository's `data/catalog.json` with the downloaded file.
 
-## Catalog Manager
-Open `admin.html`.
+For existing items, you can also edit the JSON directly if preferred.
 
-It supports:
-- add product / solution
-- edit product / solution
-- delete product / solution
-- add project
-- edit project
-- delete project
-- import JSON
-- export JSON
+### B. Add an image
 
-Because browsers cannot reliably rewrite local files, the manager exports `catalog.json`. Replace the package's `data/catalog.json`, then run the build script before publishing.
+**Keep the original image wherever it already is on your computer.** Do not manually copy it into the repository first.
+
+In `admin.html`, use **Image Naming & Processing Generator** to enter:
+
+- company
+- category
+- item ID
+- title
+- role
+- sequence
+- full local source-image path
+
+Copy the generated command into the VS Code terminal while the terminal is opened at the repository root.
+
+Example:
+
+`python tools/add_image.py --image "C:\Artino Photos\New Project\IMG_4837.jpg" --company artino --category artino-acrylic --item A-ACR-002 --title "Illuminated Acrylic Display" --role detail --seq 01`
+
+The tool automatically:
+
+1. reads the original image from its existing location;
+2. creates the correct repository folder;
+3. generates the canonical filename;
+4. corrects EXIF orientation;
+5. converts to RGB JPEG;
+6. resizes to a maximum of 1800px;
+7. optimizes the file;
+8. adds the resulting path to the matching item in `data/catalog.json`;
+9. synchronizes the embedded catalog data in `script.js`.
+
+The processed file will appear under:
+
+`images/<company>/<category>/<canonical-filename>.jpg`
+
+### C. Add more images
+
+Repeat the command with sequence numbers such as `02`, `03`, `04`.
+
+### D. Review
+
+Open `index.html` locally or check the GitHub Pages site. Confirm the images and catalog content.
+
+### E. Publish
+
+From the repository root, run:
+
+`PUBLISH_CATALOG.ps1`
+
+The script synchronizes `script.js`, shows the Git changes, asks for confirmation, then runs `git add`, `git commit` and `git push`.
+
+Your existing Git authentication is used. No GitHub token is stored in the website.
+
+## Image naming convention
+
+`company-category-title-itemID-role-sequence.jpg`
+
+Example:
+
+`artino-acrylic-illuminated-acrylic-display-a-acr-002-detail-01.jpg`
+
+## Important distinction
+
+The `tools/add_image.py` script is **not ChatGPT's image-generation tool**. It is a local catalog asset tool for preparing images you already have.
 
 ## GitHub Pages
-This package is compatible with GitHub Pages because it is a static site: HTML, CSS, JavaScript, JSON and images only.
 
-A future backend is optional. It is not required for the catalog's public experience.
-
-## Image paths
-Use relative paths such as:
-
-`images/artino/signage-01.jpg`
-
-Replace the placeholder image with your actual image while keeping the path/name, or update the path in the catalog manager.
-
-## Publishing
-For GitHub Pages:
-1. Put the package contents in a GitHub repository.
-2. Push changes.
-3. Enable GitHub Pages for the repository.
-4. The catalog becomes a live responsive website.
-
-## Important
-This is still a master framework. Verify product specifications, dates, standards, project claims, client permissions and technical details before external publication.
+No server, package.json or homepage property is required for the static public catalog.
