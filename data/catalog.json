@@ -4,20 +4,30 @@
     "title": "ARTINO × INOWAY",
     "subtitle": "Integrated Signage, Wayfinding, Accessibility & Fabrication Solutions",
     "edition": "V4.1 — Product & Solutions Catalog",
-    "note": "Catalog content is structured for ongoing expansion. Product specifications, project details and publication permissions should be confirmed against approved project records before external release."
+    "note": "Catalog content is structured for ongoing expansion. Product specifications, project details and publication permissions should be confirmed against approved project records before external release.",
+    "title_fa": "آرتینو × اینووی",
+    "subtitle_fa": "راهکارهای یکپارچه تابلو، مسیریابی، دسترس‌پذیری و ساخت سفارشی",
+    "edition_fa": "نسخه ۴.۱ — کاتالوگ محصولات و راهکارها",
+    "note_fa": "محتوای کاتالوگ برای توسعه و به‌روزرسانی مستمر ساختاربندی شده است. مشخصات محصولات، جزئیات پروژه‌ها و مجوز انتشار باید پیش از ارائه رسمی با سوابق تأییدشده تطبیق داده شوند."
   },
   "companies": [
     {
       "id": "artino",
       "name": "Artino",
       "role": "Signage, fabrication & visual communication systems",
-      "intro": "Design and fabrication of signage, dimensional lettering, acrylic and display solutions, branded elements, awards, interior features and custom fabricated components."
+      "intro": "Design and fabrication of signage, dimensional lettering, acrylic and display solutions, branded elements, awards, interior features and custom fabricated components.",
+      "name_fa": "آرتینو",
+      "role_fa": "سیستم‌های تابلو، ساخت سفارشی و ارتباطات بصری",
+      "intro_fa": "طراحی و ساخت تابلوها، حروف برجسته، راهکارهای آکریلیک و نمایشگاهی، عناصر هویتی، جوایز، اجزای داخلی و قطعات سفارشی ساخته‌شده."
     },
     {
       "id": "inoway",
       "name": "InoWay",
       "role": "Wayfinding, accessibility & inclusive navigation systems",
-      "intro": "Wayfinding and accessibility solutions designed to make complex public environments clearer, more navigable and more inclusive, from identification and directional signage to tactile and accessible communication systems."
+      "intro": "Wayfinding and accessibility solutions designed to make complex public environments clearer, more navigable and more inclusive, from identification and directional signage to tactile and accessible communication systems.",
+      "name_fa": "اینووی",
+      "role_fa": "سیستم‌های مسیریابی، دسترس‌پذیری و ناوبری فراگیر",
+      "intro_fa": "راهکارهای مسیریابی و دسترس‌پذیری برای شفاف‌تر، قابل‌درک‌تر و فراگیرتر کردن محیط‌های پیچیده عمومی؛ از تابلوهای شناسایی و جهت‌یابی تا سامانه‌های لمسی و ارتباطات دسترس‌پذیر."
     }
   ],
   "categories": [
@@ -25,73 +35,97 @@
       "id": "artino-signage",
       "company": "artino",
       "name": "Signage & Marking",
-      "description": "Dimensional, identification and branded signage developed for clear visual communication across commercial, corporate and public environments."
+      "description": "Dimensional, identification and branded signage developed for clear visual communication across commercial, corporate and public environments.",
+      "name_fa": "تابلو و نشانه‌گذاری",
+      "description_fa": "تابلوهای شناسایی، برجسته و هویتی برای ایجاد ارتباط بصری روشن در محیط‌های تجاری، سازمانی و عمومی."
     },
     {
       "id": "artino-acrylic",
       "company": "artino",
       "name": "Acrylic Fabrication",
-      "description": "Custom acrylic elements, boxes, forms and fabricated components produced for display, branding, presentation and architectural applications."
+      "description": "Custom acrylic elements, boxes, forms and fabricated components produced for display, branding, presentation and architectural applications.",
+      "name_fa": "ساخت آکریلیک",
+      "description_fa": "عناصر، باکس‌ها، فرم‌ها و قطعات سفارشی آکریلیک برای نمایش، برندینگ، ارائه محصول و کاربردهای معماری."
     },
     {
       "id": "artino-displays",
       "company": "artino",
       "name": "Displays & Retail",
-      "description": "Retail and commercial display systems created to present products, information and brand content within customer-facing environments."
+      "description": "Retail and commercial display systems created to present products, information and brand content within customer-facing environments.",
+      "name_fa": "نمایشگر و خرده‌فروشی",
+      "description_fa": "سیستم‌های نمایشگاهی و تجاری برای ارائه محصول، اطلاعات و محتوای برند در محیط‌های مخاطب‌محور."
     },
     {
       "id": "artino-awards",
       "company": "artino",
       "name": "Awards & Trophies",
-      "description": "Custom awards, trophies and recognition pieces combining tailored form, material selection and detailed fabrication."
+      "description": "Custom awards, trophies and recognition pieces combining tailored form, material selection and detailed fabrication.",
+      "name_fa": "جوایز و تندیس‌ها",
+      "description_fa": "جوایز، تندیس‌ها و قطعات تقدیر سفارشی با فرم، متریال و جزئیات ساخت متناسب با پروژه."
     },
     {
       "id": "artino-decor",
       "company": "artino",
       "name": "Interior & Décor",
-      "description": "Branded interior elements and decorative features that extend visual identity into physical spaces."
+      "description": "Branded interior elements and decorative features that extend visual identity into physical spaces.",
+      "name_fa": "دکور و عناصر داخلی",
+      "description_fa": "عناصر داخلی و تزئینی هویت‌محور که هویت بصری را با استفاده از فرم، متریال و جزئیات ساخت به فضای فیزیکی منتقل می‌کنند."
     },
     {
       "id": "artino-industrial",
       "company": "artino",
       "name": "Industrial Components",
-      "description": "Custom-fabricated components developed around project-specific dimensions, materials, functions and production requirements."
+      "description": "Custom-fabricated components developed around project-specific dimensions, materials, functions and production requirements.",
+      "name_fa": "قطعات صنعتی سفارشی",
+      "description_fa": "قطعات سفارشی ساخته‌شده بر اساس ابعاد، متریال، عملکرد و الزامات تولیدی هر پروژه."
     },
     {
       "id": "inoway-airport",
       "company": "inoway",
       "name": "Airport Wayfinding",
-      "description": "Airport wayfinding and identification systems supporting orientation, destination recognition and movement across complex passenger environments."
+      "description": "Airport wayfinding and identification systems supporting orientation, destination recognition and movement across complex passenger environments.",
+      "name_fa": "مسیریابی فرودگاهی",
+      "description_fa": "سیستم‌های مسیریابی و شناسایی فرودگاهی برای پشتیبانی از جهت‌یابی، تشخیص مقصد و حرکت در محیط‌های پیچیده مسافری."
     },
     {
       "id": "inoway-accessibility",
       "company": "inoway",
       "name": "Accessibility Systems",
-      "description": "Accessible communication and tactile signage solutions incorporating physical and visual cues to support independent navigation."
+      "description": "Accessible communication and tactile signage solutions incorporating physical and visual cues to support independent navigation.",
+      "name_fa": "سامانه‌های دسترس‌پذیری",
+      "description_fa": "راهکارهای ارتباطی و تابلوهای لمسی که نشانه‌های فیزیکی و بصری را برای پشتیبانی از ناوبری مستقل ترکیب می‌کنند."
     },
     {
       "id": "inoway-campus",
       "company": "inoway",
       "name": "Campus & University",
-      "description": "Wayfinding and identification systems for universities and campuses, helping users understand buildings, destinations, routes and shared spaces."
+      "description": "Wayfinding and identification systems for universities and campuses, helping users understand buildings, destinations, routes and shared spaces.",
+      "name_fa": "مسیریابی دانشگاه و پردیس",
+      "description_fa": "سیستم‌های مسیریابی و شناسایی برای دانشگاه‌ها و پردیس‌ها که ساختمان‌ها، مقصدها، مسیرها و فضاهای مشترک را قابل‌درک‌تر می‌کنند."
     },
     {
       "id": "inoway-commercial",
       "company": "inoway",
       "name": "Commercial & Mall",
-      "description": "Wayfinding and identification systems for malls, commercial complexes and customer-facing environments where clear navigation supports the overall experience."
+      "description": "Wayfinding and identification systems for malls, commercial complexes and customer-facing environments where clear navigation supports the overall experience.",
+      "name_fa": "مسیریابی تجاری و مراکز خرید",
+      "description_fa": "سیستم‌های مسیریابی و شناسایی برای مراکز خرید و مجموعه‌های تجاری که ورودی‌ها، مقصدها، خدمات و مسیرهای حرکتی را روشن‌تر می‌کنند."
     },
     {
       "id": "inoway-healthcare",
       "company": "inoway",
       "name": "Healthcare Wayfinding",
-      "description": "Wayfinding, identification and safety communication systems designed for the complex movement patterns and user needs of healthcare environments."
+      "description": "Wayfinding, identification and safety communication systems designed for the complex movement patterns and user needs of healthcare environments.",
+      "name_fa": "مسیریابی مراکز درمانی",
+      "description_fa": "سیستم‌های مسیریابی، شناسایی و ارتباطات ایمنی متناسب با الگوهای حرکتی و نیازهای کاربران در محیط‌های پیچیده درمانی."
     },
     {
       "id": "inoway-transit",
       "company": "inoway",
       "name": "Transit",
-      "description": "Wayfinding, identification and safety communication for transit environments, supporting movement between entrances, platforms, services and destinations."
+      "description": "Wayfinding, identification and safety communication for transit environments, supporting movement between entrances, platforms, services and destinations.",
+      "name_fa": "مسیریابی و ایمنی حمل‌ونقل",
+      "description_fa": "راهکارهای مسیریابی، شناسایی و ارتباطات ایمنی برای محیط‌های حمل‌ونقل، با تمرکز بر حرکت میان ورودی‌ها، سکوها، خدمات و مقصدها."
     }
   ],
   "items": [
@@ -112,6 +146,15 @@
         "images/artino/signage/artino-signage-dimensional-lettering-logo-signage-a-sgn-001-detail-01.jpg",
         "images/artino/signage/artino-signage-dimensional-lettering-logo-signage-a-sgn-001-detail-02.jpg",
         "images/artino/signage/artino-signage-dimensional-lettering-logo-signage-a-sgn-001-detail-03.jpg"
+      ],
+      "name_fa": "حروف برجسته و تابلوهای لوگو",
+      "type_fa": "خانواده محصول",
+      "status_fa": "خانواده کاتالوگ",
+      "summary_fa": "خانواده‌ای از حروف برجسته و تابلوهای لوگو که به‌صورت سفارشی برای فضاهای برندشده، نماها، فضاهای داخلی و کاربردهای شناسایی تولید می‌شوند.",
+      "specs_fa": [
+        "فرم و ابعاد سفارشی",
+        "انتخاب متریال و پرداخت متناسب با پروژه",
+        "ساخت متناسب با شرایط نصب"
       ]
     },
     {
@@ -131,6 +174,15 @@
         "images/artino/acrylic/artino-acrylic-custom-acrylic-boxes-display-forms-a-acr-001-detail-01.jpg",
         "images/artino/acrylic/artino-acrylic-custom-acrylic-boxes-display-forms-a-acr-001-detail-02.jpg",
         "images/artino/acrylic/artino-acrylic-custom-acrylic-boxes-display-forms-a-acr-001-detail-03.jpg"
+      ],
+      "name_fa": "باکس‌ها و فرم‌های نمایش آکریلیک سفارشی",
+      "type_fa": "خانواده محصول",
+      "status_fa": "خانواده کاتالوگ",
+      "summary_fa": "باکس‌ها، فرم‌ها و عناصر ساخته‌شده از آکریلیک برای نمایش، برندینگ، ارائه محصول و کاربردهای معماری.",
+      "specs_fa": [
+        "هندسه و ابعاد سفارشی",
+        "انتخاب متریال، شفافیت و پرداخت بر اساس کاربرد",
+        "ساخت و مونتاژ متناسب با کاربری"
       ]
     },
     {
@@ -152,6 +204,15 @@
         "images/artino/displays/artino-displays-retail-shelf-displays-headers-a-dsp-001-detail-03.jpg",
         "images/artino/displays/artino-displays-retail-shelf-displays-headers-a-dsp-001-detail-04.jpg",
         "images/artino/displays/artino-displays-retail-shelf-displays-headers-a-dsp-001-detail-05.jpg"
+      ],
+      "name_fa": "نمایشگرهای قفسه‌ای و هدربوردهای فروشگاهی",
+      "type_fa": "خانواده محصول",
+      "status_fa": "خانواده کاتالوگ",
+      "summary_fa": "نمایشگرهای قفسه‌ای و عناصر بالاسری برای سامان‌دهی ارائه محصول، تقویت دیده‌شدن برند و انتقال اطلاعات در نقطه تعامل.",
+      "specs_fa": [
+        "ابعاد و پیکربندی سفارشی",
+        "انتخاب متریال و پرداخت متناسب با پروژه",
+        "طراحی متناسب با محیط فروش یا نمایش"
       ]
     },
     {
@@ -172,6 +233,15 @@
         "images/artino/awards/artino-awards-custom-awards-trophies-a-awd-001-detail-02.jpg",
         "images/artino/awards/artino-awards-custom-awards-trophies-a-awd-001-detail-03.jpg",
         "images/artino/awards/artino-awards-custom-awards-trophies-a-awd-001-detail-04.jpg"
+      ],
+      "name_fa": "جوایز و تندیس‌های سفارشی",
+      "type_fa": "خانواده محصول",
+      "status_fa": "خانواده کاتالوگ",
+      "summary_fa": "جوایز و تندیس‌های سفارشی بر اساس هویت سازمان، رویداد یا دستاورد، با فرم و جزئیات ساخت اختصاصی.",
+      "specs_fa": [
+        "فرم و ابعاد سفارشی",
+        "انتخاب متریال و پرداخت متناسب با طرح",
+        "ساخت و مونتاژ بر اساس طرح تأییدشده"
       ]
     },
     {
@@ -190,6 +260,15 @@
       "images": [
         "images/artino/decor/artino-decor-branded-interior-decorative-elements-a-dec-001-detail-01.jpg",
         "images/artino/decor/artino-decor-branded-interior-decorative-elements-a-dec-001-detail-02.jpg"
+      ],
+      "name_fa": "عناصر داخلی و دکوراتیو هویت‌محور",
+      "type_fa": "خانواده محصول",
+      "status_fa": "خانواده کاتالوگ",
+      "summary_fa": "عناصر داخلی و تزئینی برندشده که هویت بصری را با فرم‌ها، متریال‌ها و جزئیات ساخت سفارشی به فضای فیزیکی منتقل می‌کنند.",
+      "specs_fa": [
+        "طراحی و ابعاد سفارشی",
+        "انتخاب متریال و پرداخت بر اساس کاربرد",
+        "ساخت متناسب با محیط معماری"
       ]
     },
     {
@@ -207,6 +286,15 @@
       ],
       "images": [
         "images/artino/industrial/artino-industrial-custom-industrial-components-a-ind-001-detail-01.jpg"
+      ],
+      "name_fa": "قطعات صنعتی سفارشی",
+      "type_fa": "خانواده محصول",
+      "status_fa": "خانواده کاتالوگ",
+      "summary_fa": "قطعات صنعتی سفارشی برای نیازهای مشخص تولیدی، تجهیزاتی، معماری یا عملکردی؛ در مواردی که قطعات استاندارد پاسخ‌گوی نیاز پروژه نیستند.",
+      "specs_fa": [
+        "ابعاد و هندسه متناسب با پروژه",
+        "انتخاب متریال و روش ساخت بر اساس کاربرد",
+        "تولید بر مبنای طراحی و الزامات عملکردی تأییدشده"
       ]
     },
     {
@@ -230,6 +318,15 @@
         "images/inoway/airport/inoway-airport-airport-wayfinding-identification-i-air-001-detail-05.jpg",
         "images/inoway/airport/inoway-airport-airport-wayfinding-identification-i-air-001-detail-06.jpg",
         "images/inoway/airport/inoway-airport-airport-wayfinding-identification-i-air-001-detail-07.jpg"
+      ],
+      "name_fa": "مسیریابی و شناسایی فرودگاهی",
+      "type_fa": "خانواده راهکار",
+      "status_fa": "خانواده کاتالوگ",
+      "summary_fa": "راهکارهای یکپارچه مسیریابی و شناسایی فرودگاهی برای پشتیبانی از جهت‌یابی، تشخیص مقصد و حرکت در محیط‌های مسافری.",
+      "specs_fa": [
+        "سلسله‌مراتب اطلاعات متناسب با مکان و سفر مسافر",
+        "خانواده تابلوهای شناسایی و جهت‌یابی",
+        "طراحی و ساخت متناسب با محیط فرودگاه"
       ]
     },
     {
@@ -249,6 +346,15 @@
         "images/inoway/accessibility/inoway-accessibility-accessible-tactile-signage-i-acc-001-detail-01.jpg",
         "images/inoway/accessibility/inoway-accessibility-accessible-tactile-signage-i-acc-001-detail-02.jpg",
         "images/inoway/accessibility/inoway-accessibility-accessible-tactile-signage-i-acc-001-detail-03.jpg"
+      ],
+      "name_fa": "تابلوهای دسترس‌پذیر و لمسی",
+      "type_fa": "خانواده راهکار",
+      "status_fa": "خانواده کاتالوگ",
+      "summary_fa": "راهکارهای تابلو و ارتباطات لمسی که اطلاعات دیداری، لمسی و بریل را برای ناوبری روشن‌تر و مستقل‌تر ترکیب می‌کنند.",
+      "specs_fa": [
+        "عناصر ارتباطی لمسی",
+        "اطلاعات بریل و دسترس‌پذیر در موارد موردنیاز",
+        "انتخاب ابعاد، متریال و نحوه نصب متناسب با پروژه"
       ]
     },
     {
@@ -269,6 +375,15 @@
         "images/inoway/campus/inoway-campus-campus-university-wayfinding-i-cam-001-detail-02.jpg",
         "images/inoway/campus/inoway-campus-campus-university-wayfinding-i-cam-001-detail-03.jpg",
         "images/inoway/campus/inoway-campus-campus-university-wayfinding-i-cam-001-detail-04.jpg"
+      ],
+      "name_fa": "مسیریابی دانشگاه و پردیس",
+      "type_fa": "خانواده راهکار",
+      "status_fa": "خانواده کاتالوگ",
+      "summary_fa": "سیستم‌های مسیریابی دانشگاهی که مقصدها، ساختمان‌ها، مسیرها و فضاهای مشترک را در قالب یک تجربه ناوبری منسجم سازمان‌دهی می‌کنند.",
+      "specs_fa": [
+        "سلسله‌مراتب اطلاعات در مقیاس پردیس",
+        "تابلوهای شناسایی ساختمان، جهت‌یابی و معرفی مقصد",
+        "طراحی سیستم بر اساس ساختار حرکت و مقصدهای سایت"
       ]
     },
     {
@@ -289,6 +404,15 @@
         "images/inoway/commercial/inoway-commercial-commercial-mall-wayfinding-i-com-001-detail-02.jpg",
         "images/inoway/commercial/inoway-commercial-commercial-mall-wayfinding-i-com-001-detail-03.jpg",
         "images/inoway/commercial/inoway-commercial-commercial-mall-wayfinding-i-com-001-detail-04.jpg"
+      ],
+      "name_fa": "مسیریابی مراکز تجاری و خرید",
+      "type_fa": "خانواده راهکار",
+      "status_fa": "خانواده کاتالوگ",
+      "summary_fa": "سیستم‌های مسیریابی مراکز تجاری و خرید برای روشن‌تر کردن ورودی‌ها، مقصدها، خدمات و مسیرهای حرکتی در محیط‌های مخاطب‌محور.",
+      "specs_fa": [
+        "خانواده تابلوهای جهت‌یابی و شناسایی",
+        "سلسله‌مراتب اطلاعات هماهنگ با حرکت بازدیدکنندگان",
+        "طراحی، متریال و جانمایی متناسب با پروژه"
       ]
     },
     {
@@ -310,6 +434,15 @@
         "images/inoway/healthcare/inoway-healthcare-healthcare-wayfinding-safety-signage-i-hea-001-detail-03.jpg",
         "images/inoway/healthcare/inoway-healthcare-healthcare-wayfinding-safety-signage-i-hea-001-detail-04.jpg",
         "images/inoway/healthcare/inoway-healthcare-healthcare-wayfinding-safety-signage-i-hea-001-detail-05.jpg"
+      ],
+      "name_fa": "مسیریابی و تابلوهای ایمنی مراکز درمانی",
+      "type_fa": "خانواده راهکار",
+      "status_fa": "خانواده کاتالوگ",
+      "summary_fa": "راهکارهای مسیریابی و تابلوهای ایمنی درمانی برای پشتیبانی از حرکت روشن، شناسایی مقصد و انتقال اطلاعات در محیط‌های پیچیده درمانی.",
+      "specs_fa": [
+        "شناسایی بخش‌ها و مقصدها",
+        "ارتباطات جهت‌یابی و ایمنی",
+        "سیستم متناسب با مسیرهای حرکتی و نیازهای کاربران درمانی"
       ]
     },
     {
@@ -330,6 +463,15 @@
         "images/inoway/transit/inoway-transit-transit-station-wayfinding-safety-i-trn-001-detail-02.jpg",
         "images/inoway/transit/inoway-transit-transit-station-wayfinding-safety-i-trn-001-detail-03.jpg",
         "images/inoway/transit/inoway-transit-transit-station-wayfinding-safety-i-trn-001-detail-04.jpg"
+      ],
+      "name_fa": "مسیریابی و ایمنی ایستگاه‌های حمل‌ونقل",
+      "type_fa": "خانواده راهکار",
+      "status_fa": "خانواده کاتالوگ",
+      "summary_fa": "مسیریابی و ارتباطات ایمنی ایستگاه‌های حمل‌ونقل برای پشتیبانی از حرکت میان ورودی‌ها، خدمات، سکوها و سایر مقصدهای کلیدی.",
+      "specs_fa": [
+        "خانواده تابلوهای جهت‌یابی و شناسایی",
+        "اطلاعات حرکت مسافر و مقصدها",
+        "طراحی، متریال و الزامات نصب متناسب با پروژه"
       ]
     }
   ],
@@ -342,13 +484,16 @@
       "status": "Reference project",
       "summary": "Wayfinding and visual communication references associated with Imam Khomeini Airport City, covering passenger-oriented identification and navigation applications.",
       "images": [
-        "images/projects/project-airport-city-wayfinding-p-ikac-001-01.jpg",
-        "images/projects/project-airport-city-wayfinding-p-ikac-001-02.jpg"
+        "images/projects/project-airport-city-wayfinding-p-ikac-001-01.jpg"
       ],
       "tags": [
         "project",
         "reference"
-      ]
+      ],
+      "name_fa": "مسیریابی شهر فرودگاهی",
+      "client_fa": "شهر فرودگاهی امام خمینی",
+      "status_fa": "پروژه مرجع",
+      "summary_fa": "نمونه‌های مرتبط با مسیریابی و ارتباطات بصری در شهر فرودگاهی امام خمینی، شامل کاربردهای شناسایی و ناوبری با تمرکز بر مسیر حرکت مسافران."
     },
     {
       "id": "P-HYP-001",
@@ -363,7 +508,11 @@
       "tags": [
         "project",
         "reference"
-      ]
+      ],
+      "name_fa": "برنامه نمایشگرهای فروشگاهی هایپرمی",
+      "client_fa": "هایپرمی",
+      "status_fa": "پروژه مرجع",
+      "summary_fa": "برنامه نمایشگرهای فروشگاهی شامل قفسه‌ها، عناصر ارائه محصول و کاربردهای تابلو و نشانه‌گذاری فروشگاهی برای هایپرمی."
     },
     {
       "id": "P-CBX-001",
@@ -378,7 +527,11 @@
       "tags": [
         "project",
         "reference"
-      ]
+      ],
+      "name_fa": "نمایشگر و بسته‌بندی کوکی‌باکس",
+      "client_fa": "کوکی‌باکس",
+      "status_fa": "پروژه مرجع",
+      "summary_fa": "عناصر سفارشی نمایش و بسته‌بندی شامل باکس‌ها، قفسه‌ها و سینی‌های توسعه‌یافته برای کوکی‌باکس."
     },
     {
       "id": "P-KSK-001",
@@ -393,7 +546,11 @@
       "tags": [
         "project",
         "reference"
-      ]
+      ],
+      "name_fa": "کیوسک مسیریابی / مرجع تعاملی",
+      "client_fa": "مرجع",
+      "status_fa": "پروژه مرجع",
+      "summary_fa": "کیوسک تعاملی مسیریابی و مرجع رابط کاربری که ترکیب مسیریابی فیزیکی با نقاط تماس دیجیتال برای ناوبری را نشان می‌دهد."
     }
   ]
 }
