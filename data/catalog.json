@@ -2,22 +2,22 @@
   "version": "4.1",
   "settings": {
     "title": "ARTINO × INOWAY",
-    "subtitle": "Master Product & Solutions Catalog",
-    "edition": "V4.1 — Asset-linked build",
-    "note": "Working catalog. Verify official names, specifications, project details and publication permissions before external use."
+    "subtitle": "Integrated Signage, Wayfinding, Accessibility & Fabrication Solutions",
+    "edition": "V4.1 — Product & Solutions Catalog",
+    "note": "Catalog content is structured for ongoing expansion. Product specifications, project details and publication permissions should be confirmed against approved project records before external release."
   },
   "companies": [
     {
       "id": "artino",
       "name": "Artino",
-      "role": "Signage, acrylic fabrication & integrated production",
-      "intro": "Signage, acrylic fabrication, display, décor, awards and custom fabricated components."
+      "role": "Signage, fabrication & visual communication systems",
+      "intro": "Design and fabrication of signage, dimensional lettering, acrylic and display solutions, branded elements, awards, interior features and custom fabricated components."
     },
     {
       "id": "inoway",
       "name": "InoWay",
-      "role": "Wayfinding, accessibility & navigation systems",
-      "intro": "Wayfinding systems for airports, healthcare, campuses, transit and public environments."
+      "role": "Wayfinding, accessibility & inclusive navigation systems",
+      "intro": "Wayfinding and accessibility solutions designed to make complex public environments clearer, more navigable and more inclusive, from identification and directional signage to tactile and accessible communication systems."
     }
   ],
   "categories": [
@@ -25,73 +25,73 @@
       "id": "artino-signage",
       "company": "artino",
       "name": "Signage & Marking",
-      "description": "Signage & Marking solution/product family."
+      "description": "Dimensional, identification and branded signage developed for clear visual communication across commercial, corporate and public environments."
     },
     {
       "id": "artino-acrylic",
       "company": "artino",
       "name": "Acrylic Fabrication",
-      "description": "Acrylic Fabrication solution/product family."
+      "description": "Custom acrylic elements, boxes, forms and fabricated components produced for display, branding, presentation and architectural applications."
     },
     {
       "id": "artino-displays",
       "company": "artino",
       "name": "Displays & Retail",
-      "description": "Displays & Retail solution/product family."
+      "description": "Retail and commercial display systems created to present products, information and brand content within customer-facing environments."
     },
     {
       "id": "artino-awards",
       "company": "artino",
       "name": "Awards & Trophies",
-      "description": "Awards & Trophies solution/product family."
+      "description": "Custom awards, trophies and recognition pieces combining tailored form, material selection and detailed fabrication."
     },
     {
       "id": "artino-decor",
       "company": "artino",
       "name": "Interior & Décor",
-      "description": "Interior & Décor solution/product family."
+      "description": "Branded interior elements and decorative features that extend visual identity into physical spaces."
     },
     {
       "id": "artino-industrial",
       "company": "artino",
       "name": "Industrial Components",
-      "description": "Industrial Components solution/product family."
+      "description": "Custom-fabricated components developed around project-specific dimensions, materials, functions and production requirements."
     },
     {
       "id": "inoway-airport",
       "company": "inoway",
       "name": "Airport Wayfinding",
-      "description": "Airport Wayfinding solution/product family."
+      "description": "Airport wayfinding and identification systems supporting orientation, destination recognition and movement across complex passenger environments."
     },
     {
       "id": "inoway-accessibility",
       "company": "inoway",
       "name": "Accessibility Systems",
-      "description": "Accessibility Systems solution/product family."
+      "description": "Accessible communication and tactile signage solutions incorporating physical and visual cues to support independent navigation."
     },
     {
       "id": "inoway-campus",
       "company": "inoway",
       "name": "Campus & University",
-      "description": "Campus & University solution/product family."
+      "description": "Wayfinding and identification systems for universities and campuses, helping users understand buildings, destinations, routes and shared spaces."
     },
     {
       "id": "inoway-commercial",
       "company": "inoway",
       "name": "Commercial & Mall",
-      "description": "Commercial & Mall solution/product family."
+      "description": "Wayfinding and identification systems for malls, commercial complexes and customer-facing environments where clear navigation supports the overall experience."
     },
     {
       "id": "inoway-healthcare",
       "company": "inoway",
       "name": "Healthcare Wayfinding",
-      "description": "Healthcare Wayfinding solution/product family."
+      "description": "Wayfinding, identification and safety communication systems designed for the complex movement patterns and user needs of healthcare environments."
     },
     {
       "id": "inoway-transit",
       "company": "inoway",
       "name": "Transit",
-      "description": "Transit solution/product family."
+      "description": "Wayfinding, identification and safety communication for transit environments, supporting movement between entrances, platforms, services and destinations."
     }
   ],
   "items": [
@@ -101,12 +101,12 @@
       "category": "artino-signage",
       "name": "Dimensional Lettering & Logo Signage",
       "type": "Product Family",
-      "status": "Working title — verify",
-      "summary": "Representative visual family assembled from the supplied image set. Confirm official naming and specifications before publication.",
+      "status": "Catalog family",
+      "summary": "Dimensional lettering and logo signage produced as custom visual elements for branded spaces, façades, interiors and other identification applications.",
       "specs": [
-        "Custom design",
-        "Project-specific dimensions",
-        "Verify final materials / construction"
+        "Custom form and dimensions",
+        "Project-specific material and finish selection",
+        "Fabrication configured to the installation environment"
       ],
       "images": [
         "images/artino/signage/artino-signage-dimensional-lettering-logo-signage-a-sgn-001-detail-01.jpg",
@@ -120,12 +120,12 @@
       "category": "artino-acrylic",
       "name": "Custom Acrylic Boxes & Display Forms",
       "type": "Product Family",
-      "status": "Working title — verify",
-      "summary": "Representative visual family assembled from the supplied image set. Confirm official naming and specifications before publication.",
+      "status": "Catalog family",
+      "summary": "Custom acrylic boxes, forms and fabricated elements for display, branding, product presentation and architectural applications.",
       "specs": [
-        "Custom design",
-        "Project-specific dimensions",
-        "Verify final materials / construction"
+        "Custom geometry and dimensions",
+        "Material, transparency and finish selected by application",
+        "Fabrication and assembly adapted to the intended use"
       ],
       "images": [
         "images/artino/acrylic/artino-acrylic-custom-acrylic-boxes-display-forms-a-acr-001-detail-01.jpg",
@@ -139,12 +139,12 @@
       "category": "artino-displays",
       "name": "Retail Shelf Displays & Headers",
       "type": "Product Family",
-      "status": "Working title — verify",
-      "summary": "Representative visual family assembled from the supplied image set. Confirm official naming and specifications before publication.",
+      "status": "Catalog family",
+      "summary": "Retail shelf displays and header elements designed to organize product presentation, strengthen brand visibility and communicate information at the point of interaction.",
       "specs": [
-        "Custom design",
-        "Project-specific dimensions",
-        "Verify final materials / construction"
+        "Custom dimensions and configuration",
+        "Project-specific material and finish selection",
+        "Designed for the intended retail or display environment"
       ],
       "images": [
         "images/artino/displays/artino-displays-retail-shelf-displays-headers-a-dsp-001-detail-01.jpg",
@@ -160,12 +160,12 @@
       "category": "artino-awards",
       "name": "Custom Awards & Trophies",
       "type": "Product Family",
-      "status": "Working title — verify",
-      "summary": "Representative visual family assembled from the supplied image set. Confirm official naming and specifications before publication.",
+      "status": "Catalog family",
+      "summary": "Custom awards and trophies developed around the identity of the organization, event or achievement, with tailored forms and fabricated details.",
       "specs": [
-        "Custom design",
-        "Project-specific dimensions",
-        "Verify final materials / construction"
+        "Custom form and dimensions",
+        "Material and finish selected for the concept",
+        "Fabricated and assembled according to the approved design"
       ],
       "images": [
         "images/artino/awards/artino-awards-custom-awards-trophies-a-awd-001-detail-01.jpg",
@@ -180,12 +180,12 @@
       "category": "artino-decor",
       "name": "Branded Interior & Decorative Elements",
       "type": "Product Family",
-      "status": "Working title — verify",
-      "summary": "Representative visual family assembled from the supplied image set. Confirm official naming and specifications before publication.",
+      "status": "Catalog family",
+      "summary": "Branded interior and decorative elements that translate visual identity into physical space through custom forms, materials and fabricated details.",
       "specs": [
-        "Custom design",
-        "Project-specific dimensions",
-        "Verify final materials / construction"
+        "Custom design and dimensions",
+        "Material and finish selected by application",
+        "Fabrication adapted to the architectural environment"
       ],
       "images": [
         "images/artino/decor/artino-decor-branded-interior-decorative-elements-a-dec-001-detail-01.jpg",
@@ -198,12 +198,12 @@
       "category": "artino-industrial",
       "name": "Custom Industrial Components",
       "type": "Product Family",
-      "status": "Working title — verify",
-      "summary": "Representative visual family assembled from the supplied image set. Confirm official naming and specifications before publication.",
+      "status": "Catalog family",
+      "summary": "Custom industrial components developed for specific production, equipment, architectural or functional requirements where standard components do not provide the required solution.",
       "specs": [
-        "Custom design",
-        "Project-specific dimensions",
-        "Verify final materials / construction"
+        "Project-specific dimensions and geometry",
+        "Material and fabrication method selected by application",
+        "Produced against approved design and functional requirements"
       ],
       "images": [
         "images/artino/industrial/artino-industrial-custom-industrial-components-a-ind-001-detail-01.jpg"
@@ -215,12 +215,12 @@
       "category": "inoway-airport",
       "name": "Airport Wayfinding & Identification",
       "type": "Solution Family",
-      "status": "Working title — verify",
-      "summary": "Representative visual family assembled from the supplied image set. Confirm official naming and specifications before publication.",
+      "status": "Catalog family",
+      "summary": "Integrated airport wayfinding and identification solutions designed to support orientation, destination recognition and movement throughout passenger environments.",
       "specs": [
-        "Custom design",
-        "Project-specific dimensions",
-        "Verify final materials / construction"
+        "Location- and journey-specific information hierarchy",
+        "Identification and directional sign families",
+        "Design and fabrication adapted to the airport environment"
       ],
       "images": [
         "images/inoway/airport/inoway-airport-airport-wayfinding-identification-i-air-001-detail-01.jpg",
@@ -238,12 +238,12 @@
       "category": "inoway-accessibility",
       "name": "Accessible & Tactile Signage",
       "type": "Solution Family",
-      "status": "Working title — verify",
-      "summary": "Representative visual family assembled from the supplied image set. Confirm official naming and specifications before publication.",
+      "status": "Catalog family",
+      "summary": "Accessible and tactile signage solutions that combine visual, tactile and Braille communication to support clearer and more independent navigation.",
       "specs": [
-        "Custom design",
-        "Project-specific dimensions",
-        "Verify final materials / construction"
+        "Tactile communication elements",
+        "Braille and accessible information where required",
+        "Project-specific mounting, dimensions and material selection"
       ],
       "images": [
         "images/inoway/accessibility/inoway-accessibility-accessible-tactile-signage-i-acc-001-detail-01.jpg",
@@ -257,12 +257,12 @@
       "category": "inoway-campus",
       "name": "Campus & University Wayfinding",
       "type": "Solution Family",
-      "status": "Working title — verify",
-      "summary": "Representative visual family assembled from the supplied image set. Confirm official naming and specifications before publication.",
+      "status": "Catalog family",
+      "summary": "Campus and university wayfinding systems that organize destinations, buildings, routes and shared facilities into a coherent navigation experience.",
       "specs": [
-        "Custom design",
-        "Project-specific dimensions",
-        "Verify final materials / construction"
+        "Campus-wide information hierarchy",
+        "Building, directional and identification signage",
+        "System designed around the site's circulation and destination structure"
       ],
       "images": [
         "images/inoway/campus/inoway-campus-campus-university-wayfinding-i-cam-001-detail-01.jpg",
@@ -277,12 +277,12 @@
       "category": "inoway-commercial",
       "name": "Commercial & Mall Wayfinding",
       "type": "Solution Family",
-      "status": "Working title — verify",
-      "summary": "Representative visual family assembled from the supplied image set. Confirm official naming and specifications before publication.",
+      "status": "Catalog family",
+      "summary": "Commercial and mall wayfinding systems designed to make entrances, destinations, facilities and circulation routes easier to understand across customer-facing environments.",
       "specs": [
-        "Custom design",
-        "Project-specific dimensions",
-        "Verify final materials / construction"
+        "Directional and identification sign families",
+        "Information hierarchy aligned with visitor movement",
+        "Project-specific design, materials and placement"
       ],
       "images": [
         "images/inoway/commercial/inoway-commercial-commercial-mall-wayfinding-i-com-001-detail-01.jpg",
@@ -297,12 +297,12 @@
       "category": "inoway-healthcare",
       "name": "Healthcare Wayfinding & Safety Signage",
       "type": "Solution Family",
-      "status": "Working title — verify",
-      "summary": "Representative visual family assembled from the supplied image set. Confirm official naming and specifications before publication.",
+      "status": "Catalog family",
+      "summary": "Healthcare wayfinding and safety signage designed to support clear movement, destination identification and communication within complex healthcare environments.",
       "specs": [
-        "Custom design",
-        "Project-specific dimensions",
-        "Verify final materials / construction"
+        "Department and destination identification",
+        "Directional and safety communication",
+        "System adapted to healthcare circulation and user needs"
       ],
       "images": [
         "images/inoway/healthcare/inoway-healthcare-healthcare-wayfinding-safety-signage-i-hea-001-detail-01.jpg",
@@ -318,12 +318,12 @@
       "category": "inoway-transit",
       "name": "Transit Station Wayfinding & Safety",
       "type": "Solution Family",
-      "status": "Working title — verify",
-      "summary": "Representative visual family assembled from the supplied image set. Confirm official naming and specifications before publication.",
+      "status": "Catalog family",
+      "summary": "Transit station wayfinding and safety communication designed to support movement between entrances, services, platforms and other key destinations.",
       "specs": [
-        "Custom design",
-        "Project-specific dimensions",
-        "Verify final materials / construction"
+        "Directional and identification sign families",
+        "Passenger movement and destination information",
+        "Project-specific design, materials and installation requirements"
       ],
       "images": [
         "images/inoway/transit/inoway-transit-transit-station-wayfinding-safety-i-trn-001-detail-01.jpg",
@@ -339,8 +339,8 @@
       "company": "artino",
       "name": "Airport City Wayfinding",
       "client": "Imam Khomeini Airport City",
-      "status": "Reference — verify",
-      "summary": "Airport-city wayfinding and related visual references.",
+      "status": "Reference project",
+      "summary": "Wayfinding and visual communication references associated with Imam Khomeini Airport City, covering passenger-oriented identification and navigation applications.",
       "images": [
         "images/projects/project-airport-city-wayfinding-p-ikac-001-01.jpg",
         "images/projects/project-airport-city-wayfinding-p-ikac-001-02.jpg"
@@ -355,8 +355,8 @@
       "company": "artino",
       "name": "HyperMe Retail Display Program",
       "client": "HyperMe",
-      "status": "Reference — verify",
-      "summary": "Retail display, shelving and store-signage reference.",
+      "status": "Reference project",
+      "summary": "Retail display program including shelving, product presentation elements and store-signage applications developed for HyperMe.",
       "images": [
         "images/projects/project-hyperme-retail-display-program-p-hyp-001-01.jpg"
       ],
@@ -370,8 +370,8 @@
       "company": "artino",
       "name": "Cookie Box Display & Packaging",
       "client": "Cookie Box",
-      "status": "Reference — verify",
-      "summary": "Boxes, shelves and trays reference.",
+      "status": "Reference project",
+      "summary": "Custom display and packaging elements including boxes, shelves and trays developed for Cookie Box.",
       "images": [
         "images/projects/project-cookie-box-display-packaging-p-cbx-001-01.jpg"
       ],
@@ -385,8 +385,8 @@
       "company": "artino",
       "name": "Wayfinding Kiosk / Interactive Reference",
       "client": "Reference",
-      "status": "Reference — verify",
-      "summary": "Interactive wayfinding interface reference supplied in the image set.",
+      "status": "Reference project",
+      "summary": "Interactive wayfinding kiosk and interface reference illustrating the integration of physical wayfinding with digital navigation touchpoints.",
       "images": [
         "images/projects/project-wayfinding-kiosk-interactive-reference-p-ksk-001-01.jpg"
       ],
